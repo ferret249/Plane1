@@ -19,6 +19,7 @@ s.bind((IP, 5000))
 print ("Ready")
 
 # Servo Vars
+pwm = navio.pwm.PWM(0)
 pwm.set_period(50)
 SERVO_MIN = 1.250 #ms
 SERVO_MAX = 1.750 #ms
