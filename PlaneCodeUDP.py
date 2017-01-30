@@ -13,7 +13,7 @@ except:
    import pickle
 
 # Setup Variables & Socket
-IP = 'localhost'
+IP = '192.168.0.113'
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.bind((IP, 5000))
 print ("Ready")
