@@ -3,6 +3,9 @@
 import sys
 import time
 
+import navio.pwm
+import navio.util
+
 import socket
 try:
    import cPickle as pickle
